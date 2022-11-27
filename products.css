@@ -1,0 +1,47 @@
+.products{
+    width: 60%;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin:10px auto;
+}
+
+    
+.products div {
+    width: auto;
+}
+
+.products img{
+    width: 250px;
+}
+
+.description {
+    flex: 2;
+    margin: 0 10px;
+}  
+.price-detalis{
+    text-align:center;
+} 
+
+.button {
+    color: white;
+    cursor: pointer;
+    padding: 12px 35px;
+    background-color: #E65755;
+    border-radius: 5px;
+}
+
+.button h2 {
+    margin: 0;
+}
+
+.button:hover {
+    background-color: #E34240;
+    color: white;
+    cursor: pointer;
+}
+
+
+
